@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<symbol version="7" name="kicker">
+    <symboltype>BLOCK</symboltype>
+    <timestamp>2019-1-18T21:49:9</timestamp>
+    <attr value="kicker" name="VeriModel" />
+    <pin polarity="Input" x="0" y="-160" name="done" />
+    <pin polarity="Input" x="0" y="-96" name="clk" />
+    <pin polarity="Input" x="0" y="96" name="kickstart" />
+    <pin polarity="Input" x="0" y="32" name="kicktime(7:0)" />
+    <pin polarity="Output" x="384" y="-160" name="Charge" />
+    <pin polarity="Output" x="384" y="-32" name="Trigger" />
+    <pin polarity="Output" x="0" y="160" name="led3" />
+    <pin polarity="Output" x="0" y="224" name="led4" />
+    <graph>
+        <attrtext style="alignment:BCENTER;fontsize:56;fontname:Arial" attrname="SymbolName" x="192" y="-200" type="symbol" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-160" type="pin done" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-96" type="pin clk" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="96" type="pin kickstart" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="32" type="pin kicktime(7:0)" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="-160" type="pin Charge" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="-32" type="pin Trigger" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="160" type="pin led3" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="224" type="pin led4" />
+        <line x2="0" y1="160" y2="160" x1="64" />
+        <line x2="0" y1="224" y2="224" x1="64" />
+        <line x2="0" y1="96" y2="96" x1="64" />
+        <rect width="64" x="0" y="20" height="24" />
+        <line x2="0" y1="32" y2="32" x1="64" />
+        <line x2="0" y1="-160" y2="-160" x1="64" />
+        <line x2="0" y1="-96" y2="-96" x1="64" />
+        <line x2="384" y1="-160" y2="-160" x1="320" />
+        <line x2="384" y1="-32" y2="-32" x1="320" />
+        <rect width="256" x="64" y="-192" height="448" />
+    </graph>
+</symbol>

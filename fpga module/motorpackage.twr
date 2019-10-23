@@ -1,0 +1,180 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+/opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/trce -intstyle ise -v 3 -s 3 -n
+3 -fastpaths -xml motorpackage.twx motorpackage.ncd -o motorpackage.twr
+motorpackage.pcf -ucf testfinal.ucf
+
+Design file:              motorpackage.ncd
+Physical constraint file: motorpackage.pcf
+Device,package,speed:     xc6slx9,tqg144,C,-3 (PRODUCTION 1.23 2016-11-22)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock inc
+------------+------------+------------+------------+------------+------------------+--------+
+            |Max Setup to|  Process   |Max Hold to |  Process   |                  | Clock  |
+Source      | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s) | Phase  |
+------------+------------+------------+------------+------------+------------------+--------+
+en          |    8.418(R)|      SLOW  |   -2.429(R)|      FAST  |inc_BUFGP         |   0.000|
+q1a         |    1.684(R)|      SLOW  |   -0.737(R)|      SLOW  |inc_BUFGP         |   0.000|
+q1b         |    2.649(R)|      SLOW  |   -1.457(R)|      FAST  |inc_BUFGP         |   0.000|
+q2a         |    2.890(R)|      SLOW  |   -1.571(R)|      FAST  |inc_BUFGP         |   0.000|
+q2b         |    3.016(R)|      SLOW  |   -1.688(R)|      FAST  |inc_BUFGP         |   0.000|
+q3a         |    2.603(R)|      SLOW  |   -1.337(R)|      FAST  |inc_BUFGP         |   0.000|
+q3b         |    3.157(R)|      SLOW  |   -1.763(R)|      FAST  |inc_BUFGP         |   0.000|
+q4a         |    3.156(R)|      SLOW  |   -1.733(R)|      FAST  |inc_BUFGP         |   0.000|
+q4b         |    3.006(R)|      SLOW  |   -1.609(R)|      FAST  |inc_BUFGP         |   0.000|
+rxin        |    0.800(R)|      FAST  |    0.170(R)|      SLOW  |inc_BUFGP         |   0.000|
+------------+------------+------------+------------+------------+------------------+--------+
+
+Clock inc to Pad
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+a1<0>       |        10.764(R)|      SLOW  |         5.714(R)|      FAST  |inc_BUFGP         |   0.000|
+a1<1>       |        11.023(R)|      SLOW  |         5.861(R)|      FAST  |inc_BUFGP         |   0.000|
+a2<0>       |         9.270(R)|      SLOW  |         4.801(R)|      FAST  |inc_BUFGP         |   0.000|
+a2<1>       |         9.093(R)|      SLOW  |         4.676(R)|      FAST  |inc_BUFGP         |   0.000|
+a3<0>       |         9.692(R)|      SLOW  |         5.275(R)|      FAST  |inc_BUFGP         |   0.000|
+a3<1>       |        10.019(R)|      SLOW  |         5.470(R)|      FAST  |inc_BUFGP         |   0.000|
+a4<0>       |         9.055(R)|      SLOW  |         4.674(R)|      FAST  |inc_BUFGP         |   0.000|
+a4<1>       |         9.294(R)|      SLOW  |         4.865(R)|      FAST  |inc_BUFGP         |   0.000|
+a5<0>       |         9.474(R)|      SLOW  |         5.083(R)|      FAST  |inc_BUFGP         |   0.000|
+a5<1>       |         9.837(R)|      SLOW  |         5.307(R)|      FAST  |inc_BUFGP         |   0.000|
+b1<0>       |         9.871(R)|      SLOW  |         5.257(R)|      FAST  |inc_BUFGP         |   0.000|
+b1<1>       |        10.161(R)|      SLOW  |         5.422(R)|      FAST  |inc_BUFGP         |   0.000|
+b2<0>       |         9.482(R)|      SLOW  |         4.894(R)|      FAST  |inc_BUFGP         |   0.000|
+b2<1>       |         9.283(R)|      SLOW  |         4.755(R)|      FAST  |inc_BUFGP         |   0.000|
+b3<0>       |         9.988(R)|      SLOW  |         5.168(R)|      FAST  |inc_BUFGP         |   0.000|
+b3<1>       |        10.268(R)|      SLOW  |         5.411(R)|      FAST  |inc_BUFGP         |   0.000|
+b4<0>       |         9.608(R)|      SLOW  |         5.022(R)|      FAST  |inc_BUFGP         |   0.000|
+b4<1>       |         9.705(R)|      SLOW  |         5.048(R)|      FAST  |inc_BUFGP         |   0.000|
+b5<0>       |         9.067(R)|      SLOW  |         4.753(R)|      FAST  |inc_BUFGP         |   0.000|
+b5<1>       |        10.131(R)|      SLOW  |         5.536(R)|      FAST  |inc_BUFGP         |   0.000|
+c1<0>       |         8.606(R)|      SLOW  |         4.477(R)|      FAST  |inc_BUFGP         |   0.000|
+c1<1>       |         8.883(R)|      SLOW  |         4.678(R)|      FAST  |inc_BUFGP         |   0.000|
+c2<0>       |         9.237(R)|      SLOW  |         4.615(R)|      FAST  |inc_BUFGP         |   0.000|
+c2<1>       |         9.280(R)|      SLOW  |         4.660(R)|      FAST  |inc_BUFGP         |   0.000|
+c3<0>       |         9.806(R)|      SLOW  |         5.140(R)|      FAST  |inc_BUFGP         |   0.000|
+c3<1>       |         9.542(R)|      SLOW  |         4.995(R)|      FAST  |inc_BUFGP         |   0.000|
+c4<0>       |         9.848(R)|      SLOW  |         5.241(R)|      FAST  |inc_BUFGP         |   0.000|
+c4<1>       |         9.506(R)|      SLOW  |         5.052(R)|      FAST  |inc_BUFGP         |   0.000|
+c5<0>       |         8.537(R)|      SLOW  |         4.495(R)|      FAST  |inc_BUFGP         |   0.000|
+c5<1>       |         8.731(R)|      SLOW  |         4.608(R)|      FAST  |inc_BUFGP         |   0.000|
+charge      |         8.608(R)|      SLOW  |         4.641(R)|      FAST  |inc_BUFGP         |   0.000|
+led         |         8.452(R)|      SLOW  |         4.491(R)|      FAST  |inc_BUFGP         |   0.000|
+led2        |         8.288(R)|      SLOW  |         4.431(R)|      FAST  |inc_BUFGP         |   0.000|
+led3        |         7.741(R)|      SLOW  |         4.108(R)|      FAST  |inc_BUFGP         |   0.000|
+led4        |         7.747(R)|      SLOW  |         4.116(R)|      FAST  |inc_BUFGP         |   0.000|
+trigger     |        10.157(R)|      SLOW  |         5.079(R)|      FAST  |inc_BUFGP         |   0.000|
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+
+Clock to Setup on destination clock inc
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+inc            |    7.614|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+hall1<0>       |a1<0>          |    8.825|
+hall1<0>       |a1<1>          |    9.084|
+hall1<0>       |c1<0>          |    7.698|
+hall1<0>       |c1<1>          |    7.975|
+hall1<1>       |a1<0>          |    8.874|
+hall1<1>       |a1<1>          |    9.133|
+hall1<1>       |b1<0>          |    7.864|
+hall1<1>       |b1<1>          |    8.154|
+hall1<2>       |b1<0>          |    7.358|
+hall1<2>       |b1<1>          |    7.648|
+hall1<2>       |c1<0>          |    6.926|
+hall1<2>       |c1<1>          |    7.203|
+hall2<0>       |a2<0>          |    7.935|
+hall2<0>       |a2<1>          |    7.758|
+hall2<0>       |c2<0>          |    7.589|
+hall2<0>       |c2<1>          |    7.632|
+hall2<1>       |a2<0>          |    8.255|
+hall2<1>       |a2<1>          |    8.078|
+hall2<1>       |b2<0>          |    7.998|
+hall2<1>       |b2<1>          |    7.799|
+hall2<2>       |b2<0>          |    7.797|
+hall2<2>       |b2<1>          |    7.598|
+hall2<2>       |c2<0>          |    7.572|
+hall2<2>       |c2<1>          |    7.615|
+hall3<0>       |a3<0>          |    7.878|
+hall3<0>       |a3<1>          |    8.205|
+hall3<0>       |c3<0>          |    8.739|
+hall3<0>       |c3<1>          |    8.475|
+hall3<1>       |a3<0>          |    7.727|
+hall3<1>       |a3<1>          |    8.054|
+hall3<1>       |b3<0>          |    8.148|
+hall3<1>       |b3<1>          |    8.428|
+hall3<2>       |b3<0>          |    8.225|
+hall3<2>       |b3<1>          |    8.505|
+hall3<2>       |c3<0>          |    7.954|
+hall3<2>       |c3<1>          |    7.690|
+hall4<0>       |a4<0>          |    7.816|
+hall4<0>       |a4<1>          |    8.055|
+hall4<0>       |c4<0>          |    7.780|
+hall4<0>       |c4<1>          |    7.438|
+hall4<1>       |a4<0>          |    7.876|
+hall4<1>       |a4<1>          |    8.115|
+hall4<1>       |b4<0>          |    7.317|
+hall4<1>       |b4<1>          |    7.414|
+hall4<2>       |b4<0>          |    7.717|
+hall4<2>       |b4<1>          |    7.814|
+hall4<2>       |c4<0>          |    8.123|
+hall4<2>       |c4<1>          |    7.781|
+hall5<0>       |a5<0>          |    6.952|
+hall5<0>       |a5<1>          |    7.315|
+hall5<0>       |c5<0>          |    7.443|
+hall5<0>       |c5<1>          |    7.637|
+hall5<1>       |a5<0>          |    6.495|
+hall5<1>       |a5<1>          |    6.858|
+hall5<1>       |b5<0>          |    7.664|
+hall5<1>       |b5<1>          |    8.728|
+hall5<2>       |b5<0>          |    8.743|
+hall5<2>       |b5<1>          |    9.807|
+hall5<2>       |c5<0>          |    8.329|
+hall5<2>       |c5<1>          |    8.523|
+---------------+---------------+---------+
+
+
+Analysis completed Sat Jan 19 08:52:21 2019 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 397 MB
+
+
+

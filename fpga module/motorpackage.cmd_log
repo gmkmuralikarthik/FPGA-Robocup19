@@ -1,0 +1,498 @@
+xst -intstyle ise -ifn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.xst" -ofn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.syr" 
+sch2hdl -intstyle ise -family spartan6 -verilog motorpackage_drc.vf -w {/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.sch} 
+xst -intstyle ise -ifn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.xst" -ofn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.syr" 
+xst -intstyle ise -ifn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.xst" -ofn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.syr" 
+xst -intstyle ise -ifn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.xst" -ofn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.syr" 
+xst -intstyle ise -ifn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.xst" -ofn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-tqg144-3 "motorpackage.ngc" motorpackage.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o motorpackage_map.ncd motorpackage.ngd motorpackage.pcf 
+par -w -intstyle ise -ol high -mt off motorpackage_map.ncd motorpackage.ncd motorpackage.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml motorpackage.twx motorpackage.ncd -o motorpackage.twr motorpackage.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-tqg144-3 "motorpackage.ngc" motorpackage.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o motorpackage_map.ncd motorpackage.ngd motorpackage.pcf 
+par -w -intstyle ise -ol high -mt off motorpackage_map.ncd motorpackage.ncd motorpackage.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml motorpackage.twx motorpackage.ncd -o motorpackage.twr motorpackage.pcf 
+bitgen -intstyle ise -f motorpackage.ut motorpackage.ncd 
+xst -intstyle ise -ifn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.xst" -ofn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc test.ucf -p xc6slx9-tqg144-3 "motorpackage.ngc" motorpackage.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc test.ucf -p xc6slx9-tqg144-3 "motorpackage.ngc" motorpackage.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o motorpackage_map.ncd motorpackage.ngd motorpackage.pcf 
+par -w -intstyle ise -ol high -mt off motorpackage_map.ncd motorpackage.ncd motorpackage.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml motorpackage.twx motorpackage.ncd -o motorpackage.twr motorpackage.pcf -ucf test.ucf 
+bitgen -intstyle ise -f motorpackage.ut motorpackage.ncd 
+xst -intstyle ise -ifn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.xst" -ofn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.syr" 
+xst -intstyle ise -ifn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.xst" -ofn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc test.ucf -p xc6slx9-tqg144-3 "motorpackage.ngc" motorpackage.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o motorpackage_map.ncd motorpackage.ngd motorpackage.pcf 
+par -w -intstyle ise -ol high -mt off motorpackage_map.ncd motorpackage.ncd motorpackage.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml motorpackage.twx motorpackage.ncd -o motorpackage.twr motorpackage.pcf -ucf test.ucf 
+bitgen -intstyle ise -f motorpackage.ut motorpackage.ncd 
+sch2hdl -intstyle ise -family spartan6 -verilog motorpackage_drc.vf -w {/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.sch} 
+xst -intstyle ise -ifn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.xst" -ofn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.syr" 
+xst -intstyle ise -ifn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.xst" -ofn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.syr" 
+xst -intstyle ise -ifn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.xst" -ofn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc test2.ucf -p xc6slx9-tqg144-3 "motorpackage.ngc" motorpackage.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc test2.ucf -p xc6slx9-tqg144-3 "motorpackage.ngc" motorpackage.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o motorpackage_map.ncd motorpackage.ngd motorpackage.pcf 
+par -w -intstyle ise -ol high -mt off motorpackage_map.ncd motorpackage.ncd motorpackage.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml motorpackage.twx motorpackage.ncd -o motorpackage.twr motorpackage.pcf -ucf test2.ucf 
+bitgen -intstyle ise -f motorpackage.ut motorpackage.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc test2.ucf -p xc6slx9-tqg144-3 "motorpackage.ngc" motorpackage.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o motorpackage_map.ncd motorpackage.ngd motorpackage.pcf 
+par -w -intstyle ise -ol high -mt off motorpackage_map.ncd motorpackage.ncd motorpackage.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml motorpackage.twx motorpackage.ncd -o motorpackage.twr motorpackage.pcf -ucf test2.ucf 
+bitgen -intstyle ise -f motorpackage.ut motorpackage.ncd 
+xst -intstyle ise -ifn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.xst" -ofn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc test1.ucf -p xc6slx9-csg324-3 "motorpackage.ngc" motorpackage.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o motorpackage_map.ncd motorpackage.ngd motorpackage.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc test4.ucf -p xc6slx9-csg324-3 "motorpackage.ngc" motorpackage.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o motorpackage_map.ncd motorpackage.ngd motorpackage.pcf 
+par -w -intstyle ise -ol high -mt off motorpackage_map.ncd motorpackage.ncd motorpackage.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml motorpackage.twx motorpackage.ncd -o motorpackage.twr motorpackage.pcf -ucf test4.ucf 
+bitgen -intstyle ise -f motorpackage.ut motorpackage.ncd 
+xst -intstyle ise -ifn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.xst" -ofn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc test4.ucf -p xc6slx9-csg324-3 "motorpackage.ngc" motorpackage.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o motorpackage_map.ncd motorpackage.ngd motorpackage.pcf 
+par -w -intstyle ise -ol high -mt off motorpackage_map.ncd motorpackage.ncd motorpackage.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml motorpackage.twx motorpackage.ncd -o motorpackage.twr motorpackage.pcf -ucf test4.ucf 
+bitgen -intstyle ise -f motorpackage.ut motorpackage.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc test4.ucf -p xc6slx9-csg324-3 "motorpackage.ngc" motorpackage.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o motorpackage_map.ncd motorpackage.ngd motorpackage.pcf 
+par -w -intstyle ise -ol high -mt off motorpackage_map.ncd motorpackage.ncd motorpackage.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml motorpackage.twx motorpackage.ncd -o motorpackage.twr motorpackage.pcf -ucf test4.ucf 
+bitgen -intstyle ise -f motorpackage.ut motorpackage.ncd 
+xst -intstyle ise -ifn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.xst" -ofn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc testfinal.ucf -p xc6slx9-tqg144-3 "motorpackage.ngc" motorpackage.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc testfinal.ucf -p xc6slx9-tqg144-3 "motorpackage.ngc" motorpackage.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc testfinal.ucf -p xc6slx9-tqg144-3 "motorpackage.ngc" motorpackage.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o motorpackage_map.ncd motorpackage.ngd motorpackage.pcf 
+xst -intstyle ise -ifn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.xst" -ofn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc testfinal.ucf -p xc6slx9-tqg144-3 "motorpackage.ngc" motorpackage.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o motorpackage_map.ncd motorpackage.ngd motorpackage.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc testfinal.ucf -p xc6slx9-tqg144-3 "motorpackage.ngc" motorpackage.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o motorpackage_map.ncd motorpackage.ngd motorpackage.pcf 
+par -w -intstyle ise -ol high -mt off motorpackage_map.ncd motorpackage.ncd motorpackage.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml motorpackage.twx motorpackage.ncd -o motorpackage.twr motorpackage.pcf -ucf testfinal.ucf 
+bitgen -intstyle ise -f motorpackage.ut motorpackage.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc testfinal.ucf -p xc6slx9-tqg144-3 "motorpackage.ngc" motorpackage.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o motorpackage_map.ncd motorpackage.ngd motorpackage.pcf 
+par -w -intstyle ise -ol high -mt off motorpackage_map.ncd motorpackage.ncd motorpackage.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml motorpackage.twx motorpackage.ncd -o motorpackage.twr motorpackage.pcf -ucf testfinal.ucf 
+bitgen -intstyle ise -f motorpackage.ut motorpackage.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc testfinal.ucf -p xc6slx9-tqg144-3 "motorpackage.ngc" motorpackage.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o motorpackage_map.ncd motorpackage.ngd motorpackage.pcf 
+par -w -intstyle ise -ol high -mt off motorpackage_map.ncd motorpackage.ncd motorpackage.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml motorpackage.twx motorpackage.ncd -o motorpackage.twr motorpackage.pcf -ucf testfinal.ucf 
+bitgen -intstyle ise -f motorpackage.ut motorpackage.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc testfinal.ucf -p xc6slx9-tqg144-3 "motorpackage.ngc" motorpackage.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o motorpackage_map.ncd motorpackage.ngd motorpackage.pcf 
+par -w -intstyle ise -ol high -mt off motorpackage_map.ncd motorpackage.ncd motorpackage.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml motorpackage.twx motorpackage.ncd -o motorpackage.twr motorpackage.pcf -ucf testfinal.ucf 
+bitgen -intstyle ise -f motorpackage.ut motorpackage.ncd 
+bitgen -intstyle ise -f motorpackage.ut motorpackage.ncd 
+xst -intstyle ise -ifn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.xst" -ofn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim motorpackage.ngc motorpackage_synthesis.v 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc testfinal.ucf -p xc6slx9-tqg144-3 "motorpackage.ngc" motorpackage.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o motorpackage_map.ncd motorpackage.ngd motorpackage.pcf 
+par -w -intstyle ise -ol high -mt off motorpackage_map.ncd motorpackage.ncd motorpackage.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml motorpackage.twx motorpackage.ncd -o motorpackage.twr motorpackage.pcf -ucf testfinal.ucf 
+bitgen -intstyle ise -f motorpackage.ut motorpackage.ncd 
+xst -intstyle ise -ifn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.xst" -ofn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.syr" 
+xst -intstyle ise -ifn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.xst" -ofn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.syr" 
+xst -intstyle ise -ifn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.xst" -ofn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc testfinal.ucf -p xc6slx9-tqg144-3 "motorpackage.ngc" motorpackage.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o motorpackage_map.ncd motorpackage.ngd motorpackage.pcf 
+par -w -intstyle ise -ol high -mt off motorpackage_map.ncd motorpackage.ncd motorpackage.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml motorpackage.twx motorpackage.ncd -o motorpackage.twr motorpackage.pcf -ucf testfinal.ucf 
+bitgen -intstyle ise -f motorpackage.ut motorpackage.ncd 
+xst -intstyle ise -ifn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.xst" -ofn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.syr" 
+xst -intstyle ise -ifn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.xst" -ofn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.syr" 
+xst -intstyle ise -ifn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.xst" -ofn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.syr" 
+xst -intstyle ise -ifn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.xst" -ofn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.syr" 
+xst -intstyle ise -ifn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.xst" -ofn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.syr" 
+xst -intstyle ise -ifn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.xst" -ofn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc testfinal.ucf -p xc6slx9-tqg144-3 "motorpackage.ngc" motorpackage.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o motorpackage_map.ncd motorpackage.ngd motorpackage.pcf 
+par -w -intstyle ise -ol high -mt off motorpackage_map.ncd motorpackage.ncd motorpackage.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml motorpackage.twx motorpackage.ncd -o motorpackage.twr motorpackage.pcf -ucf testfinal.ucf 
+bitgen -intstyle ise -f motorpackage.ut motorpackage.ncd 
+xst -intstyle ise -ifn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.xst" -ofn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc testfinal.ucf -p xc6slx9-tqg144-3 "motorpackage.ngc" motorpackage.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o motorpackage_map.ncd motorpackage.ngd motorpackage.pcf 
+par -w -intstyle ise -ol high -mt off motorpackage_map.ncd motorpackage.ncd motorpackage.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml motorpackage.twx motorpackage.ncd -o motorpackage.twr motorpackage.pcf -ucf testfinal.ucf 
+bitgen -intstyle ise -f motorpackage.ut motorpackage.ncd 
+xst -intstyle ise -ifn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.xst" -ofn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc testfinal.ucf -p xc6slx9-tqg144-3 "motorpackage.ngc" motorpackage.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o motorpackage_map.ncd motorpackage.ngd motorpackage.pcf 
+par -w -intstyle ise -ol high -mt off motorpackage_map.ncd motorpackage.ncd motorpackage.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml motorpackage.twx motorpackage.ncd -o motorpackage.twr motorpackage.pcf -ucf testfinal.ucf 
+bitgen -intstyle ise -f motorpackage.ut motorpackage.ncd 
+xst -intstyle ise -ifn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.xst" -ofn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc testfinal.ucf -p xc6slx9-tqg144-3 "motorpackage.ngc" motorpackage.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o motorpackage_map.ncd motorpackage.ngd motorpackage.pcf 
+par -w -intstyle ise -ol high -mt off motorpackage_map.ncd motorpackage.ncd motorpackage.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml motorpackage.twx motorpackage.ncd -o motorpackage.twr motorpackage.pcf -ucf testfinal.ucf 
+bitgen -intstyle ise -f motorpackage.ut motorpackage.ncd 
+xst -intstyle ise -ifn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.xst" -ofn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc testfinal.ucf -p xc6slx9-tqg144-3 "motorpackage.ngc" motorpackage.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o motorpackage_map.ncd motorpackage.ngd motorpackage.pcf 
+par -w -intstyle ise -ol high -mt off motorpackage_map.ncd motorpackage.ncd motorpackage.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml motorpackage.twx motorpackage.ncd -o motorpackage.twr motorpackage.pcf -ucf testfinal.ucf 
+bitgen -intstyle ise -f motorpackage.ut motorpackage.ncd 
+xst -intstyle ise -ifn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.xst" -ofn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.syr" 
+xst -intstyle ise -ifn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.xst" -ofn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc testfinal.ucf -p xc6slx9-tqg144-3 "motorpackage.ngc" motorpackage.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o motorpackage_map.ncd motorpackage.ngd motorpackage.pcf 
+par -w -intstyle ise -ol high -mt off motorpackage_map.ncd motorpackage.ncd motorpackage.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml motorpackage.twx motorpackage.ncd -o motorpackage.twr motorpackage.pcf -ucf testfinal.ucf 
+bitgen -intstyle ise -f motorpackage.ut motorpackage.ncd 
+xst -intstyle ise -ifn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.xst" -ofn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc testfinal.ucf -p xc6slx9-tqg144-3 "motorpackage.ngc" motorpackage.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o motorpackage_map.ncd motorpackage.ngd motorpackage.pcf 
+par -w -intstyle ise -ol high -mt off motorpackage_map.ncd motorpackage.ncd motorpackage.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml motorpackage.twx motorpackage.ncd -o motorpackage.twr motorpackage.pcf -ucf testfinal.ucf 
+bitgen -intstyle ise -f motorpackage.ut motorpackage.ncd 
+xst -intstyle ise -ifn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.xst" -ofn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc testfinal.ucf -p xc6slx9-tqg144-3 "motorpackage.ngc" motorpackage.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o motorpackage_map.ncd motorpackage.ngd motorpackage.pcf 
+par -w -intstyle ise -ol high -mt off motorpackage_map.ncd motorpackage.ncd motorpackage.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml motorpackage.twx motorpackage.ncd -o motorpackage.twr motorpackage.pcf -ucf testfinal.ucf 
+bitgen -intstyle ise -f motorpackage.ut motorpackage.ncd 
+xst -intstyle ise -ifn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.xst" -ofn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc testfinal.ucf -p xc6slx9-tqg144-3 "motorpackage.ngc" motorpackage.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o motorpackage_map.ncd motorpackage.ngd motorpackage.pcf 
+par -w -intstyle ise -ol high -mt off motorpackage_map.ncd motorpackage.ncd motorpackage.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml motorpackage.twx motorpackage.ncd -o motorpackage.twr motorpackage.pcf -ucf testfinal.ucf 
+bitgen -intstyle ise -f motorpackage.ut motorpackage.ncd 
+sch2hdl -intstyle ise -family spartan6 -verilog motorpackage_drc.vf -w {/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.sch} 
+sch2hdl -intstyle ise -family spartan6 -verilog motorpackage_drc.vf -w {/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.sch} 
+xst -intstyle ise -ifn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.xst" -ofn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc testfinal.ucf -p xc6slx9-tqg144-3 "motorpackage.ngc" motorpackage.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc testfinal.ucf -p xc6slx9-tqg144-3 "motorpackage.ngc" motorpackage.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc testfinal.ucf -p xc6slx9-tqg144-3 "motorpackage.ngc" motorpackage.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o motorpackage_map.ncd motorpackage.ngd motorpackage.pcf 
+par -w -intstyle ise -ol high -mt off motorpackage_map.ncd motorpackage.ncd motorpackage.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml motorpackage.twx motorpackage.ncd -o motorpackage.twr motorpackage.pcf -ucf testfinal.ucf 
+bitgen -intstyle ise -f motorpackage.ut motorpackage.ncd 
+xst -intstyle ise -ifn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.xst" -ofn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc testfinal.ucf -p xc6slx9-tqg144-3 "motorpackage.ngc" motorpackage.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o motorpackage_map.ncd motorpackage.ngd motorpackage.pcf 
+par -w -intstyle ise -ol high -mt off motorpackage_map.ncd motorpackage.ncd motorpackage.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml motorpackage.twx motorpackage.ncd -o motorpackage.twr motorpackage.pcf -ucf testfinal.ucf 
+bitgen -intstyle ise -f motorpackage.ut motorpackage.ncd 
+xst -intstyle ise -ifn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.xst" -ofn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc testfinal.ucf -p xc6slx9-tqg144-3 "motorpackage.ngc" motorpackage.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o motorpackage_map.ncd motorpackage.ngd motorpackage.pcf 
+par -w -intstyle ise -ol high -mt off motorpackage_map.ncd motorpackage.ncd motorpackage.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml motorpackage.twx motorpackage.ncd -o motorpackage.twr motorpackage.pcf -ucf testfinal.ucf 
+bitgen -intstyle ise -f motorpackage.ut motorpackage.ncd 
+xst -intstyle ise -ifn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.xst" -ofn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc testfinal.ucf -p xc6slx9-tqg144-3 "motorpackage.ngc" motorpackage.ngd  
+xst -intstyle ise -ifn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.xst" -ofn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc testfinal.ucf -p xc6slx9-tqg144-3 "motorpackage.ngc" motorpackage.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o motorpackage_map.ncd motorpackage.ngd motorpackage.pcf 
+par -w -intstyle ise -ol high -mt off motorpackage_map.ncd motorpackage.ncd motorpackage.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml motorpackage.twx motorpackage.ncd -o motorpackage.twr motorpackage.pcf -ucf testfinal.ucf 
+bitgen -intstyle ise -f motorpackage.ut motorpackage.ncd 
+xst -intstyle ise -ifn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.xst" -ofn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc testfinal.ucf -p xc6slx9-tqg144-3 "motorpackage.ngc" motorpackage.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o motorpackage_map.ncd motorpackage.ngd motorpackage.pcf 
+xst -intstyle ise -ifn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.xst" -ofn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc testfinal.ucf -p xc6slx9-tqg144-3 "motorpackage.ngc" motorpackage.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o motorpackage_map.ncd motorpackage.ngd motorpackage.pcf 
+par -w -intstyle ise -ol high -mt off motorpackage_map.ncd motorpackage.ncd motorpackage.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml motorpackage.twx motorpackage.ncd -o motorpackage.twr motorpackage.pcf -ucf testfinal.ucf 
+bitgen -intstyle ise -f motorpackage.ut motorpackage.ncd 
+xst -intstyle ise -ifn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.xst" -ofn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.syr" 
+sch2hdl -intstyle ise -family spartan6 -verilog motorpackage_drc.vf -w {/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.sch} 
+xst -intstyle ise -ifn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.xst" -ofn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.syr" 
+xst -intstyle ise -ifn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.xst" -ofn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.syr" 
+xst -intstyle ise -ifn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.xst" -ofn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.syr" 
+xst -intstyle ise -ifn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.xst" -ofn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.syr" 
+sch2hdl -intstyle ise -family spartan6 -verilog motorpackage_drc.vf -w {/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.sch} 
+xst -intstyle ise -ifn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.xst" -ofn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc testfinal.ucf -p xc6slx9-tqg144-3 "motorpackage.ngc" motorpackage.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o motorpackage_map.ncd motorpackage.ngd motorpackage.pcf 
+par -w -intstyle ise -ol high -mt off motorpackage_map.ncd motorpackage.ncd motorpackage.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml motorpackage.twx motorpackage.ncd -o motorpackage.twr motorpackage.pcf -ucf testfinal.ucf 
+bitgen -intstyle ise -f motorpackage.ut motorpackage.ncd 
+xst -intstyle ise -ifn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.xst" -ofn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.syr" 
+xst -intstyle ise -ifn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.xst" -ofn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc testfinal.ucf -p xc6slx9-tqg144-3 "motorpackage.ngc" motorpackage.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o motorpackage_map.ncd motorpackage.ngd motorpackage.pcf 
+par -w -intstyle ise -ol high -mt off motorpackage_map.ncd motorpackage.ncd motorpackage.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml motorpackage.twx motorpackage.ncd -o motorpackage.twr motorpackage.pcf -ucf testfinal.ucf 
+bitgen -intstyle ise -f motorpackage.ut motorpackage.ncd 
+xst -intstyle ise -ifn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.xst" -ofn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc testfinal.ucf -p xc6slx9-tqg144-3 "motorpackage.ngc" motorpackage.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o motorpackage_map.ncd motorpackage.ngd motorpackage.pcf 
+par -w -intstyle ise -ol high -mt off motorpackage_map.ncd motorpackage.ncd motorpackage.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml motorpackage.twx motorpackage.ncd -o motorpackage.twr motorpackage.pcf -ucf testfinal.ucf 
+bitgen -intstyle ise -f motorpackage.ut motorpackage.ncd 
+xst -intstyle ise -ifn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.xst" -ofn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc testfinal.ucf -p xc6slx9-tqg144-3 "motorpackage.ngc" motorpackage.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o motorpackage_map.ncd motorpackage.ngd motorpackage.pcf 
+par -w -intstyle ise -ol high -mt off motorpackage_map.ncd motorpackage.ncd motorpackage.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml motorpackage.twx motorpackage.ncd -o motorpackage.twr motorpackage.pcf -ucf testfinal.ucf 
+bitgen -intstyle ise -f motorpackage.ut motorpackage.ncd 
+xst -intstyle ise -ifn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.xst" -ofn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc testfinal.ucf -p xc6slx9-tqg144-3 "motorpackage.ngc" motorpackage.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o motorpackage_map.ncd motorpackage.ngd motorpackage.pcf 
+par -w -intstyle ise -ol high -mt off motorpackage_map.ncd motorpackage.ncd motorpackage.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml motorpackage.twx motorpackage.ncd -o motorpackage.twr motorpackage.pcf -ucf testfinal.ucf 
+bitgen -intstyle ise -f motorpackage.ut motorpackage.ncd 
+xst -intstyle ise -ifn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.xst" -ofn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc testfinal.ucf -p xc6slx9-tqg144-3 "motorpackage.ngc" motorpackage.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o motorpackage_map.ncd motorpackage.ngd motorpackage.pcf 
+par -w -intstyle ise -ol high -mt off motorpackage_map.ncd motorpackage.ncd motorpackage.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml motorpackage.twx motorpackage.ncd -o motorpackage.twr motorpackage.pcf -ucf testfinal.ucf 
+bitgen -intstyle ise -f motorpackage.ut motorpackage.ncd 
+xst -intstyle ise -ifn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.xst" -ofn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc testfinal.ucf -p xc6slx9-tqg144-3 "motorpackage.ngc" motorpackage.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o motorpackage_map.ncd motorpackage.ngd motorpackage.pcf 
+par -w -intstyle ise -ol high -mt off motorpackage_map.ncd motorpackage.ncd motorpackage.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml motorpackage.twx motorpackage.ncd -o motorpackage.twr motorpackage.pcf -ucf testfinal.ucf 
+bitgen -intstyle ise -f motorpackage.ut motorpackage.ncd 
+xst -intstyle ise -ifn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.xst" -ofn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim motorpackage.ngc motorpackage_synthesis.v 
+xst -intstyle ise -ifn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.xst" -ofn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.syr" 
+xst -intstyle ise -ifn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.xst" -ofn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc testfinal.ucf -p xc6slx9-tqg144-3 "motorpackage.ngc" motorpackage.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o motorpackage_map.ncd motorpackage.ngd motorpackage.pcf 
+par -w -intstyle ise -ol high -mt off motorpackage_map.ncd motorpackage.ncd motorpackage.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml motorpackage.twx motorpackage.ncd -o motorpackage.twr motorpackage.pcf -ucf testfinal.ucf 
+bitgen -intstyle ise -f motorpackage.ut motorpackage.ncd 
+xst -intstyle ise -ifn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.xst" -ofn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc testfinal.ucf -p xc6slx9-tqg144-3 "motorpackage.ngc" motorpackage.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o motorpackage_map.ncd motorpackage.ngd motorpackage.pcf 
+par -w -intstyle ise -ol high -mt off motorpackage_map.ncd motorpackage.ncd motorpackage.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml motorpackage.twx motorpackage.ncd -o motorpackage.twr motorpackage.pcf -ucf testfinal.ucf 
+bitgen -intstyle ise -f motorpackage.ut motorpackage.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc testfinal.ucf -p xc6slx9-tqg144-3 "motorpackage.ngc" motorpackage.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o motorpackage_map.ncd motorpackage.ngd motorpackage.pcf 
+par -w -intstyle ise -ol high -mt off motorpackage_map.ncd motorpackage.ncd motorpackage.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml motorpackage.twx motorpackage.ncd -o motorpackage.twr motorpackage.pcf -ucf testfinal.ucf 
+bitgen -intstyle ise -f motorpackage.ut motorpackage.ncd 
+xst -intstyle ise -ifn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.xst" -ofn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc testfinal.ucf -p xc6slx9-tqg144-3 "motorpackage.ngc" motorpackage.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o motorpackage_map.ncd motorpackage.ngd motorpackage.pcf 
+par -w -intstyle ise -ol high -mt off motorpackage_map.ncd motorpackage.ncd motorpackage.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml motorpackage.twx motorpackage.ncd -o motorpackage.twr motorpackage.pcf -ucf testfinal.ucf 
+bitgen -intstyle ise -f motorpackage.ut motorpackage.ncd 
+xst -intstyle ise -ifn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.xst" -ofn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc testfinal.ucf -p xc6slx9-tqg144-3 "motorpackage.ngc" motorpackage.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o motorpackage_map.ncd motorpackage.ngd motorpackage.pcf 
+par -w -intstyle ise -ol high -mt off motorpackage_map.ncd motorpackage.ncd motorpackage.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml motorpackage.twx motorpackage.ncd -o motorpackage.twr motorpackage.pcf -ucf testfinal.ucf 
+bitgen -intstyle ise -f motorpackage.ut motorpackage.ncd 
+sch2hdl -intstyle ise -family spartan6 -verilog motorpackage_drc.vf -w {/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.sch} 
+sch2hdl -intstyle ise -family spartan6 -verilog motorpackage_drc.vf -w {/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.sch} 
+sch2sym -intstyle ise -family spartan6 -w -refsym motorpackage {/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.sch} {/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.sym} 
+sch2hdl -intstyle ise -family spartan6 -verilog motorpackage_drc.vf -w {/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.sch} 
+sch2hdl -intstyle ise -family spartan6 -verilog motorpackage_drc.vf -w {/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.sch} 
+xst -intstyle ise -ifn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.xst" -ofn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.syr" 
+xst -intstyle ise -ifn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.xst" -ofn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc testfinal.ucf -p xc6slx9-tqg144-3 "motorpackage.ngc" motorpackage.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o motorpackage_map.ncd motorpackage.ngd motorpackage.pcf 
+par -w -intstyle ise -ol high -mt off motorpackage_map.ncd motorpackage.ncd motorpackage.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml motorpackage.twx motorpackage.ncd -o motorpackage.twr motorpackage.pcf -ucf testfinal.ucf 
+bitgen -intstyle ise -f motorpackage.ut motorpackage.ncd 
+xst -intstyle ise -ifn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.xst" -ofn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc testfinal.ucf -p xc6slx9-tqg144-3 "motorpackage.ngc" motorpackage.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o motorpackage_map.ncd motorpackage.ngd motorpackage.pcf 
+par -w -intstyle ise -ol high -mt off motorpackage_map.ncd motorpackage.ncd motorpackage.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml motorpackage.twx motorpackage.ncd -o motorpackage.twr motorpackage.pcf -ucf testfinal.ucf 
+bitgen -intstyle ise -f motorpackage.ut motorpackage.ncd 
+xst -intstyle ise -ifn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.xst" -ofn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.syr" 
+xst -intstyle ise -ifn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.xst" -ofn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.syr" 
+xst -intstyle ise -ifn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.xst" -ofn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.syr" 
+xst -intstyle ise -ifn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.xst" -ofn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.syr" 
+xst -intstyle ise -ifn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.xst" -ofn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.syr" 
+xst -intstyle ise -ifn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.xst" -ofn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.syr" 
+xst -intstyle ise -ifn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.xst" -ofn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.syr" 
+xst -intstyle ise -ifn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.xst" -ofn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.syr" 
+xst -intstyle ise -ifn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.xst" -ofn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.syr" 
+xst -intstyle ise -ifn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.xst" -ofn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc testfinal.ucf -p xc6slx9-tqg144-3 "motorpackage.ngc" motorpackage.ngd  
+xst -intstyle ise -ifn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.xst" -ofn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc testfinal.ucf -p xc6slx9-tqg144-3 "motorpackage.ngc" motorpackage.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o motorpackage_map.ncd motorpackage.ngd motorpackage.pcf 
+par -w -intstyle ise -ol high -mt off motorpackage_map.ncd motorpackage.ncd motorpackage.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml motorpackage.twx motorpackage.ncd -o motorpackage.twr motorpackage.pcf -ucf testfinal.ucf 
+bitgen -intstyle ise -f motorpackage.ut motorpackage.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc testfinal.ucf -p xc6slx9-tqg144-3 "motorpackage.ngc" motorpackage.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o motorpackage_map.ncd motorpackage.ngd motorpackage.pcf 
+par -w -intstyle ise -ol high -mt off motorpackage_map.ncd motorpackage.ncd motorpackage.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml motorpackage.twx motorpackage.ncd -o motorpackage.twr motorpackage.pcf -ucf testfinal.ucf 
+bitgen -intstyle ise -f motorpackage.ut motorpackage.ncd 
+xst -intstyle ise -ifn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.xst" -ofn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc testfinal.ucf -p xc6slx9-tqg144-3 "motorpackage.ngc" motorpackage.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o motorpackage_map.ncd motorpackage.ngd motorpackage.pcf 
+par -w -intstyle ise -ol high -mt off motorpackage_map.ncd motorpackage.ncd motorpackage.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml motorpackage.twx motorpackage.ncd -o motorpackage.twr motorpackage.pcf -ucf testfinal.ucf 
+bitgen -intstyle ise -f motorpackage.ut motorpackage.ncd 
+xst -intstyle ise -ifn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.xst" -ofn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc testfinal.ucf -p xc6slx9-tqg144-3 "motorpackage.ngc" motorpackage.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o motorpackage_map.ncd motorpackage.ngd motorpackage.pcf 
+par -w -intstyle ise -ol high -mt off motorpackage_map.ncd motorpackage.ncd motorpackage.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml motorpackage.twx motorpackage.ncd -o motorpackage.twr motorpackage.pcf -ucf testfinal.ucf 
+bitgen -intstyle ise -f motorpackage.ut motorpackage.ncd 
+xst -intstyle ise -ifn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.xst" -ofn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc testfinal.ucf -p xc6slx9-tqg144-3 "motorpackage.ngc" motorpackage.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o motorpackage_map.ncd motorpackage.ngd motorpackage.pcf 
+par -w -intstyle ise -ol high -mt off motorpackage_map.ncd motorpackage.ncd motorpackage.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml motorpackage.twx motorpackage.ncd -o motorpackage.twr motorpackage.pcf -ucf testfinal.ucf 
+bitgen -intstyle ise -f motorpackage.ut motorpackage.ncd 
+xst -intstyle ise -ifn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.xst" -ofn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc testfinal.ucf -p xc6slx9-tqg144-3 "motorpackage.ngc" motorpackage.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o motorpackage_map.ncd motorpackage.ngd motorpackage.pcf 
+par -w -intstyle ise -ol high -mt off motorpackage_map.ncd motorpackage.ncd motorpackage.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml motorpackage.twx motorpackage.ncd -o motorpackage.twr motorpackage.pcf -ucf testfinal.ucf 
+bitgen -intstyle ise -f motorpackage.ut motorpackage.ncd 
+xst -intstyle ise -ifn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.xst" -ofn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc testfinal.ucf -p xc6slx9-tqg144-3 "motorpackage.ngc" motorpackage.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o motorpackage_map.ncd motorpackage.ngd motorpackage.pcf 
+xst -intstyle ise -ifn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.xst" -ofn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc testfinal.ucf -p xc6slx9-tqg144-3 "motorpackage.ngc" motorpackage.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o motorpackage_map.ncd motorpackage.ngd motorpackage.pcf 
+par -w -intstyle ise -ol high -mt off motorpackage_map.ncd motorpackage.ncd motorpackage.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml motorpackage.twx motorpackage.ncd -o motorpackage.twr motorpackage.pcf -ucf testfinal.ucf 
+bitgen -intstyle ise -f motorpackage.ut motorpackage.ncd 
+xst -intstyle ise -ifn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.xst" -ofn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc testfinal.ucf -p xc6slx9-tqg144-3 "motorpackage.ngc" motorpackage.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o motorpackage_map.ncd motorpackage.ngd motorpackage.pcf 
+par -w -intstyle ise -ol high -mt off motorpackage_map.ncd motorpackage.ncd motorpackage.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml motorpackage.twx motorpackage.ncd -o motorpackage.twr motorpackage.pcf -ucf testfinal.ucf 
+bitgen -intstyle ise -f motorpackage.ut motorpackage.ncd 
+xst -intstyle ise -ifn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.xst" -ofn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc testfinal.ucf -p xc6slx9-tqg144-3 "motorpackage.ngc" motorpackage.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o motorpackage_map.ncd motorpackage.ngd motorpackage.pcf 
+par -w -intstyle ise -ol high -mt off motorpackage_map.ncd motorpackage.ncd motorpackage.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml motorpackage.twx motorpackage.ncd -o motorpackage.twr motorpackage.pcf -ucf testfinal.ucf 
+bitgen -intstyle ise -f motorpackage.ut motorpackage.ncd 
+xst -intstyle ise -ifn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.xst" -ofn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.syr" 
+xst -intstyle ise -ifn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.xst" -ofn "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc testfinal.ucf -p xc6slx9-tqg144-3 "motorpackage.ngc" motorpackage.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o motorpackage_map.ncd motorpackage.ngd motorpackage.pcf 
+par -w -intstyle ise -ol high -mt off motorpackage_map.ncd motorpackage.ncd motorpackage.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml motorpackage.twx motorpackage.ncd -o motorpackage.twr motorpackage.pcf -ucf testfinal.ucf 
+bitgen -intstyle ise -f motorpackage.ut motorpackage.ncd 
+xst -intstyle ise -ifn "/home/ise/ism_projects/xi share/not my codes/fpga module/motorpackage.xst" -ofn "/home/ise/ism_projects/xi share/not my codes/fpga module/motorpackage.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc testfinal.ucf -p xc6slx9-tqg144-3 "motorpackage.ngc" motorpackage.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o motorpackage_map.ncd motorpackage.ngd motorpackage.pcf 
+par -w -intstyle ise -ol high -mt off motorpackage_map.ncd motorpackage.ncd motorpackage.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml motorpackage.twx motorpackage.ncd -o motorpackage.twr motorpackage.pcf -ucf testfinal.ucf 
+bitgen -intstyle ise -f motorpackage.ut motorpackage.ncd 
+bitgen -intstyle ise -f motorpackage.ut motorpackage.ncd 
+sch2hdl -intstyle ise -family spartan6 -verilog motorpackage_drc.vf -w {/home/ise/ism_projects/xi share/not my codes/fpga module/motorpackage.sch} 
+xst -intstyle ise -ifn "/home/ise/ism_projects/xi share/not my codes/fpga module/motorpackage.xst" -ofn "/home/ise/ism_projects/xi share/not my codes/fpga module/motorpackage.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc testfinal.ucf -p xc6slx9-tqg144-3 "motorpackage.ngc" motorpackage.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o motorpackage_map.ncd motorpackage.ngd motorpackage.pcf 
+par -w -intstyle ise -ol high -mt off motorpackage_map.ncd motorpackage.ncd motorpackage.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml motorpackage.twx motorpackage.ncd -o motorpackage.twr motorpackage.pcf -ucf testfinal.ucf 
+bitgen -intstyle ise -f motorpackage.ut motorpackage.ncd 
+xst -intstyle ise -ifn "/home/ise/ism_projects/xi share/not my codes/fpga module/motorpackage.xst" -ofn "/home/ise/ism_projects/xi share/not my codes/fpga module/motorpackage.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc testfinal.ucf -p xc6slx9-tqg144-3 "motorpackage.ngc" motorpackage.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o motorpackage_map.ncd motorpackage.ngd motorpackage.pcf 
+par -w -intstyle ise -ol high -mt off motorpackage_map.ncd motorpackage.ncd motorpackage.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml motorpackage.twx motorpackage.ncd -o motorpackage.twr motorpackage.pcf -ucf testfinal.ucf 
+bitgen -intstyle ise -f motorpackage.ut motorpackage.ncd 
+xst -intstyle ise -ifn "/home/ise/ism_projects/xi share/not my codes/fpga module/motorpackage.xst" -ofn "/home/ise/ism_projects/xi share/not my codes/fpga module/motorpackage.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc testfinal.ucf -p xc6slx9-tqg144-3 "motorpackage.ngc" motorpackage.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o motorpackage_map.ncd motorpackage.ngd motorpackage.pcf 
+par -w -intstyle ise -ol high -mt off motorpackage_map.ncd motorpackage.ncd motorpackage.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml motorpackage.twx motorpackage.ncd -o motorpackage.twr motorpackage.pcf -ucf testfinal.ucf 
+bitgen -intstyle ise -f motorpackage.ut motorpackage.ncd 
+xst -intstyle ise -ifn "/home/ise/ism_projects/xi share/not my codes/fpga module/motorpackage.xst" -ofn "/home/ise/ism_projects/xi share/not my codes/fpga module/motorpackage.syr" 
+xst -intstyle ise -ifn "/home/ise/ism_projects/xi share/not my codes/fpga module/motorpackage.xst" -ofn "/home/ise/ism_projects/xi share/not my codes/fpga module/motorpackage.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc testfinal.ucf -p xc6slx9-tqg144-3 "motorpackage.ngc" motorpackage.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o motorpackage_map.ncd motorpackage.ngd motorpackage.pcf 
+par -w -intstyle ise -ol high -mt off motorpackage_map.ncd motorpackage.ncd motorpackage.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml motorpackage.twx motorpackage.ncd -o motorpackage.twr motorpackage.pcf -ucf testfinal.ucf 
+bitgen -intstyle ise -f motorpackage.ut motorpackage.ncd 
+xst -intstyle ise -ifn "/home/ise/ism_projects/xi share/not my codes/fpga module/motorpackage.xst" -ofn "/home/ise/ism_projects/xi share/not my codes/fpga module/motorpackage.syr" 
+xst -intstyle ise -ifn "/home/ise/ism_projects/xi share/not my codes/fpga module/motorpackage.xst" -ofn "/home/ise/ism_projects/xi share/not my codes/fpga module/motorpackage.syr" 
+xst -intstyle ise -ifn "/home/ise/ism_projects/xi share/not my codes/fpga module/motorpackage.xst" -ofn "/home/ise/ism_projects/xi share/not my codes/fpga module/motorpackage.syr" 
+xst -intstyle ise -ifn "/home/ise/ism_projects/xi share/not my codes/fpga module/motorpackage.xst" -ofn "/home/ise/ism_projects/xi share/not my codes/fpga module/motorpackage.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc testfinal.ucf -p xc6slx9-tqg144-3 "motorpackage.ngc" motorpackage.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o motorpackage_map.ncd motorpackage.ngd motorpackage.pcf 
+par -w -intstyle ise -ol high -mt off motorpackage_map.ncd motorpackage.ncd motorpackage.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml motorpackage.twx motorpackage.ncd -o motorpackage.twr motorpackage.pcf -ucf testfinal.ucf 
+bitgen -intstyle ise -f motorpackage.ut motorpackage.ncd 
+xst -intstyle ise -ifn "/home/ise/ism_projects/xi share/not my codes/fpga module/motorpackage.xst" -ofn "/home/ise/ism_projects/xi share/not my codes/fpga module/motorpackage.syr" 
+xst -intstyle ise -ifn "/home/ise/ism_projects/xi share/not my codes/fpga module/motorpackage.xst" -ofn "/home/ise/ism_projects/xi share/not my codes/fpga module/motorpackage.syr" 
+xst -intstyle ise -ifn "/home/ise/ism_projects/xi share/not my codes/fpga module/motorpackage.xst" -ofn "/home/ise/ism_projects/xi share/not my codes/fpga module/motorpackage.syr" 
+xst -intstyle ise -ifn "/home/ise/ism_projects/xi share/not my codes/fpga module/motorpackage.xst" -ofn "/home/ise/ism_projects/xi share/not my codes/fpga module/motorpackage.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc testfinal.ucf -p xc6slx9-tqg144-3 "motorpackage.ngc" motorpackage.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o motorpackage_map.ncd motorpackage.ngd motorpackage.pcf 
+par -w -intstyle ise -ol high -mt off motorpackage_map.ncd motorpackage.ncd motorpackage.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml motorpackage.twx motorpackage.ncd -o motorpackage.twr motorpackage.pcf -ucf testfinal.ucf 
+bitgen -intstyle ise -f motorpackage.ut motorpackage.ncd 
+xst -intstyle ise -ifn "/home/ise/ism_projects/xi share/not my codes/fpga module/motorpackage.xst" -ofn "/home/ise/ism_projects/xi share/not my codes/fpga module/motorpackage.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc testfinal.ucf -p xc6slx9-tqg144-3 "motorpackage.ngc" motorpackage.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o motorpackage_map.ncd motorpackage.ngd motorpackage.pcf 
+par -w -intstyle ise -ol high -mt off motorpackage_map.ncd motorpackage.ncd motorpackage.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml motorpackage.twx motorpackage.ncd -o motorpackage.twr motorpackage.pcf -ucf testfinal.ucf 
+bitgen -intstyle ise -f motorpackage.ut motorpackage.ncd 
+xst -intstyle ise -ifn "/home/ise/ism_projects/xi share/not my codes/fpga module/motorpackage.xst" -ofn "/home/ise/ism_projects/xi share/not my codes/fpga module/motorpackage.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc testfinal.ucf -p xc6slx9-tqg144-3 "motorpackage.ngc" motorpackage.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o motorpackage_map.ncd motorpackage.ngd motorpackage.pcf 
+par -w -intstyle ise -ol high -mt off motorpackage_map.ncd motorpackage.ncd motorpackage.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml motorpackage.twx motorpackage.ncd -o motorpackage.twr motorpackage.pcf -ucf testfinal.ucf 
+bitgen -intstyle ise -f motorpackage.ut motorpackage.ncd 
+xst -intstyle ise -ifn "/home/ise/ism_projects/xi share/not my codes/fpga module/motorpackage.xst" -ofn "/home/ise/ism_projects/xi share/not my codes/fpga module/motorpackage.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc testfinal.ucf -p xc6slx9-tqg144-3 "motorpackage.ngc" motorpackage.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o motorpackage_map.ncd motorpackage.ngd motorpackage.pcf 
+par -w -intstyle ise -ol high -mt off motorpackage_map.ncd motorpackage.ncd motorpackage.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml motorpackage.twx motorpackage.ncd -o motorpackage.twr motorpackage.pcf -ucf testfinal.ucf 
+bitgen -intstyle ise -f motorpackage.ut motorpackage.ncd 
+xst -intstyle ise -ifn "/home/ise/ism_projects/xi share/not my codes/fpga module/motorpackage.xst" -ofn "/home/ise/ism_projects/xi share/not my codes/fpga module/motorpackage.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc testfinal.ucf -p xc6slx9-tqg144-3 "motorpackage.ngc" motorpackage.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o motorpackage_map.ncd motorpackage.ngd motorpackage.pcf 
+par -w -intstyle ise -ol high -mt off motorpackage_map.ncd motorpackage.ncd motorpackage.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml motorpackage.twx motorpackage.ncd -o motorpackage.twr motorpackage.pcf -ucf testfinal.ucf 
+bitgen -intstyle ise -f motorpackage.ut motorpackage.ncd 
+xst -intstyle ise -ifn "/home/ise/ism_projects/xi share/not my codes/fpga module/motorpackage.xst" -ofn "/home/ise/ism_projects/xi share/not my codes/fpga module/motorpackage.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc testfinal.ucf -p xc6slx9-tqg144-3 "motorpackage.ngc" motorpackage.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o motorpackage_map.ncd motorpackage.ngd motorpackage.pcf 
+par -w -intstyle ise -ol high -mt off motorpackage_map.ncd motorpackage.ncd motorpackage.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml motorpackage.twx motorpackage.ncd -o motorpackage.twr motorpackage.pcf -ucf testfinal.ucf 
+bitgen -intstyle ise -f motorpackage.ut motorpackage.ncd 
+xst -intstyle ise -ifn "/home/ise/ism_projects/xi share/not my codes/fpga module/motorpackage.xst" -ofn "/home/ise/ism_projects/xi share/not my codes/fpga module/motorpackage.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc testfinal.ucf -p xc6slx9-tqg144-3 "motorpackage.ngc" motorpackage.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o motorpackage_map.ncd motorpackage.ngd motorpackage.pcf 
+par -w -intstyle ise -ol high -mt off motorpackage_map.ncd motorpackage.ncd motorpackage.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml motorpackage.twx motorpackage.ncd -o motorpackage.twr motorpackage.pcf -ucf testfinal.ucf 
+bitgen -intstyle ise -f motorpackage.ut motorpackage.ncd 
+xst -intstyle ise -ifn "/home/ise/ism_projects/xi share/not my codes/fpga module/motorpackage.xst" -ofn "/home/ise/ism_projects/xi share/not my codes/fpga module/motorpackage.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc testfinal.ucf -p xc6slx9-tqg144-3 "motorpackage.ngc" motorpackage.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o motorpackage_map.ncd motorpackage.ngd motorpackage.pcf 
+par -w -intstyle ise -ol high -mt off motorpackage_map.ncd motorpackage.ncd motorpackage.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml motorpackage.twx motorpackage.ncd -o motorpackage.twr motorpackage.pcf -ucf testfinal.ucf 
+bitgen -intstyle ise -f motorpackage.ut motorpackage.ncd 
+xst -intstyle ise -ifn "/home/ise/ism_projects/xi share/not my codes/fpga module/motorpackage.xst" -ofn "/home/ise/ism_projects/xi share/not my codes/fpga module/motorpackage.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc testfinal.ucf -p xc6slx9-tqg144-3 "motorpackage.ngc" motorpackage.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o motorpackage_map.ncd motorpackage.ngd motorpackage.pcf 
+par -w -intstyle ise -ol high -mt off motorpackage_map.ncd motorpackage.ncd motorpackage.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml motorpackage.twx motorpackage.ncd -o motorpackage.twr motorpackage.pcf -ucf testfinal.ucf 
+bitgen -intstyle ise -f motorpackage.ut motorpackage.ncd 
+xst -intstyle ise -ifn "/home/ise/ism_projects/xi share/not my codes/fpga module/motorpackage.xst" -ofn "/home/ise/ism_projects/xi share/not my codes/fpga module/motorpackage.syr" 
+xst -intstyle ise -ifn "/home/ise/ism_projects/xi share/not my codes/fpga module/motorpackage.xst" -ofn "/home/ise/ism_projects/xi share/not my codes/fpga module/motorpackage.syr" 
+xst -intstyle ise -ifn "/home/ise/ism_projects/xi share/not my codes/fpga module/motorpackage.xst" -ofn "/home/ise/ism_projects/xi share/not my codes/fpga module/motorpackage.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc testfinal.ucf -p xc6slx9-tqg144-3 "motorpackage.ngc" motorpackage.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o motorpackage_map.ncd motorpackage.ngd motorpackage.pcf 
+par -w -intstyle ise -ol high -mt off motorpackage_map.ncd motorpackage.ncd motorpackage.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml motorpackage.twx motorpackage.ncd -o motorpackage.twr motorpackage.pcf -ucf testfinal.ucf 
+bitgen -intstyle ise -f motorpackage.ut motorpackage.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc testfinal.ucf -p xc6slx9-tqg144-3 "motorpackage.ngc" motorpackage.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o motorpackage_map.ncd motorpackage.ngd motorpackage.pcf 
+par -w -intstyle ise -ol high -mt off motorpackage_map.ncd motorpackage.ncd motorpackage.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml motorpackage.twx motorpackage.ncd -o motorpackage.twr motorpackage.pcf -ucf testfinal.ucf 
+bitgen -intstyle ise -f motorpackage.ut motorpackage.ncd 
+xst -intstyle ise -ifn "/home/ise/ism_projects/xi share/not my codes/fpga module/motorpackage.xst" -ofn "/home/ise/ism_projects/xi share/not my codes/fpga module/motorpackage.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc testfinal.ucf -p xc6slx9-tqg144-3 "motorpackage.ngc" motorpackage.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o motorpackage_map.ncd motorpackage.ngd motorpackage.pcf 
+par -w -intstyle ise -ol high -mt off motorpackage_map.ncd motorpackage.ncd motorpackage.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml motorpackage.twx motorpackage.ncd -o motorpackage.twr motorpackage.pcf -ucf testfinal.ucf 
+bitgen -intstyle ise -f motorpackage.ut motorpackage.ncd 

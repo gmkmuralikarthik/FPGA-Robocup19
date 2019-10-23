@@ -1,0 +1,14 @@
+[Inputs]
+done
+clk
+kickstart
+=kicktime[7:0]=
+[Outputs]
+Charge
+Trigger
+led3
+led4
+[BiDir]
+[ATTRIBUTES]
+VeriModel kicker
+

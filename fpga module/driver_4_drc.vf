@@ -1,0 +1,80 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : driver_4_drc.vf
+// /___/   /\     Timestamp : 12/07/2018 23:24:19
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/sch2hdl -intstyle ise -family spartan6 -verilog driver_4_drc.vf -w "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/driver_4.sch"
+//Design Name: driver_4
+//Device: spartan6
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module driver_4(clk, 
+                en, 
+                hall, 
+                qa, 
+                qb, 
+                setvalue, 
+                phase_a, 
+                phase_b, 
+                phase_c);
+
+    input clk;
+    input en;
+    input [2:0] hall;
+    input qa;
+    input qb;
+    input [7:0] setvalue;
+   output [1:0] phase_a;
+   output [1:0] phase_b;
+   output [1:0] phase_c;
+   
+   wire [7:0] XLXN_3;
+   wire XLXN_6;
+   wire XLXN_7;
+   wire [7:0] XLXN_15;
+   wire XLXN_20;
+   wire [7:0] XLXN_21;
+   wire [7:0] XLXN_99;
+   
+   pid  XLXI_1 (.clk(clk), 
+               .enc(XLXN_21[7:0]), 
+               .rst_n(en), 
+               .set_val(XLXN_99[7:0]), 
+               .Pwm(XLXN_3[7:0]));
+   zerobit  XLXI_2 (.insignal(setvalue[7:0]), 
+                   .outsignal(XLXN_99[7:0]));
+   directionbit  XLXI_3 (.insignal1(setvalue[7:0]), 
+                        .insignal2(XLXN_3[7:0]), 
+                        .pwmout(XLXN_15[7:0]));
+   pwm  XLXI_4 (.cl(), 
+               .clk(XLXN_6), 
+               .en1(en), 
+               .lo(XLXN_15[7:0]), 
+               .dir(XLXN_20), 
+               .out1(XLXN_7));
+   clock  XLXI_5 (.inc(clk), 
+                 .outc(XLXN_6));
+   gatedriver  XLXI_6 (.d(XLXN_20), 
+                      .h(hall[2:0]), 
+                      .pwm(XLXN_7), 
+                      .a(phase_a[1:0]), 
+                      .b(phase_b[1:0]), 
+                      .c(phase_c[1:0]));
+   decoder  XLXI_7 (.clk(clk), 
+                   .quadA(qa), 
+                   .quadB(qb), 
+                   .reset(en), 
+                   .total(XLXN_21[7:0]));
+endmodule

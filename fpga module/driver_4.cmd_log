@@ -1,0 +1,4 @@
+sch2hdl -intstyle ise -family spartan6 -verilog driver_4_drc.vf -w {/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/driver_4.sch} 
+sch2hdl -intstyle ise -family spartan6 -verilog driver_4_drc.vf -w {/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/driver_4.sch} 
+sch2hdl -intstyle ise -family spartan6 -verilog driver_4_drc.vf -w {/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/driver_4.sch} 
+sch2sym -intstyle ise -family spartan6 -refsym driver_4 {/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/driver_4.sch} {/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/driver_4.sym} 

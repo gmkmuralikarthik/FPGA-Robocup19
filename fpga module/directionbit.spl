@@ -1,0 +1,9 @@
+[Inputs]
+=insignal1[7:0]=
+=insignal2[7:0]=
+[Outputs]
+=pwmout[7:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel directionbit
+

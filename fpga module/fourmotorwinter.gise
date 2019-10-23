@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="fourmotorwinter.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="Encoder_4_Motor_Transmitter.spl"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="Encoder_4_Motor_Transmitter.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="UART_Receiver.spl"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="UART_Receiver.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/bitgen.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/map.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/par.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/trce.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="clock.prj"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="clock.spl"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="clock.stx"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="clock.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="clock.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="clock_divider.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="clock_divider.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="clock_divider.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="decoder.prj"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="decoder.spl"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="decoder.stx"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="decoder.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="decoder.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="directionbit.prj"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="directionbit.spl"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="directionbit.stx"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="directionbit.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="directionbit.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="dribbler.prj"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="dribbler.spl"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="dribbler.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="dribbler.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="dribbler1.prj"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="dribbler1.spl"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="dribbler1.stx"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="dribbler1.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="dribbler1.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="dribblermot.prj"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="dribblermot.spl"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="dribblermot.stx"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="dribblermot.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="dribblermot.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="dribblermoto.prj"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="dribblermoto.spl"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="dribblermoto.stx"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="dribblermoto.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="dribblermoto.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="dribblermotor.prj"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="dribblermotor.spl"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="dribblermotor.stx"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="dribblermotor.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="dribblermotor.xst"/>
+    <file xil_pn:fileType="FILE_VERILOG" xil_pn:name="driver_4_drc.vf"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="gatedriver.prj"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="gatedriver.spl"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="gatedriver.stx"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="gatedriver.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="gatedriver.xst"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="kick.prj"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="kick.spl"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="kick.stx"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="kick.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="kick.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="kickbit.prj"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="kickbit.spl"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="kickbit.stx"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="kickbit.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="kickbit.xst"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="kickdribblerbit.spl"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="kickdribblerbit.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="kicker.prj"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="kicker.spl"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="kicker.stx"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="kicker.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="kicker.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="kicker2.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="kicker2.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="kicker2.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="kt_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="kt_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="kt_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_VERILOG" xil_pn:name="motor_4_drc.vf"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="motormodule.sym" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VERILOG" xil_pn:name="motormodule.vf"/>
+    <file xil_pn:fileType="FILE_VERILOG" xil_pn:name="motormodule_drc.vf"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="motorpackage.bgn" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:fileType="FILE_BIN" xil_pn:name="motorpackage.bin"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BIT" xil_pn:name="motorpackage.bit" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="motorpackage.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="motorpackage.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_DRC" xil_pn:name="motorpackage.drc" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:fileType="FILE_JHD" xil_pn:name="motorpackage.jhd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="motorpackage.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="motorpackage.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="motorpackage.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="motorpackage.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="motorpackage.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="motorpackage.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="motorpackage.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="motorpackage.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="motorpackage.prj"/>
+    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="motorpackage.ptwx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="motorpackage.stx"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="motorpackage.sym" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="motorpackage.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="motorpackage.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="motorpackage.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="motorpackage.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="motorpackage.ut" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VERILOG" xil_pn:name="motorpackage.vf"/>
+    <file xil_pn:fileType="FILE_XPI" xil_pn:name="motorpackage.xpi"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="motorpackage.xst"/>
+    <file xil_pn:fileType="FILE_VERILOG" xil_pn:name="motorpackage_drc.vf"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="motorpackage_envsettings.html"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="motorpackage_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="motorpackage_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="motorpackage_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="motorpackage_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="motorpackage_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="motorpackage_map.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="motorpackage_ngdbuild.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="motorpackage_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="motorpackage_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="motorpackage_par.xrpt"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="motorpackage_summary.html"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="motorpackage_summary.xml"/>
+    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="motorpackage_usage.xml"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="motorpackage_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="netgen"/>
+    <file xil_pn:fileType="FILE_NETGEN_REPORT" xil_pn:name="netgen/synthesis/motorpackage_synthesis.nlf"/>
+    <file xil_pn:fileType="FILE_VERILOG" xil_pn:name="netgen/synthesis/motorpackage_synthesis.v"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="pid.prj"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="pid.spl"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="pid.stx"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="pid.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="pid.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="pwm.prj"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="pwm.spl"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="pwm.stx"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="pwm.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="pwm.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="speed4.prj"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="speed4.spl"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="speed4.stx"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="speed4.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="speed4.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="speed4motor.prj"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="speed4motor.spl"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="speed4motor.stx"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="speed4motor.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="speed4motor.xst"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="timedkicking_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="transmiter.prj"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="transmiter.spl"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="transmiter.stx"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="transmiter.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="transmiter.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="transmiter1.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="transmiter1.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="transmiter1.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="txbuffer.prj"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="txbuffer.spl"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="txbuffer.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="txbuffer.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="uart_tx.prj"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="uart_tx.spl"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="uart_tx.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="uart_tx.xst"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="webtalk.log"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="zerobit.prj"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="zerobit.spl"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="zerobit.stx"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="zerobit.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="zerobit.xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1547857948" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1547857948">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1547874551" xil_pn:in_ck="-892051881173372382" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1547874550">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputAdded"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="InputRemoved"/>
+      <status xil_pn:value="OutputRemoved"/>
+    </transform>
+    <transform xil_pn:end_ts="1547859829" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-6898868824072058218" xil_pn:start_ts="1547859829">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1547859831" xil_pn:in_ck="3160642502430527020" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="3182724314577473108" xil_pn:start_ts="1547859829">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="InputChanged"/>
+    </transform>
+    <transform xil_pn:end_ts="1547857951" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="3372714115712086306" xil_pn:start_ts="1547857951">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1547874551" xil_pn:in_ck="-892051881173372382" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1547874551">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputRemoved"/>
+      <status xil_pn:value="OutputRemoved"/>
+    </transform>
+    <transform xil_pn:end_ts="1547874555" xil_pn:in_ck="-892051881173372382" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="755231659650011979" xil_pn:start_ts="1547874551">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputRemoved"/>
+      <status xil_pn:value="OutputChanged"/>
+      <status xil_pn:value="OutputRemoved"/>
+    </transform>
+    <transform xil_pn:end_ts="1547874556" xil_pn:in_ck="6578281440539217328" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-8047664698254712466" xil_pn:start_ts="1547874555">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputRemoved"/>
+      <status xil_pn:value="OutputChanged"/>
+      <status xil_pn:value="OutputRemoved"/>
+    </transform>
+    <transform xil_pn:end_ts="1547279242" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1547279242">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1547875761" xil_pn:in_ck="3160642502430527020" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-63672087966322926" xil_pn:start_ts="1547875757">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="motormodule.vf"/>
+      <outfile xil_pn:name="motorpackage.vf"/>
+    </transform>
+    <transform xil_pn:end_ts="1547279244" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="3372714115712086306" xil_pn:start_ts="1547279244">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1547279244" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1547279244">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1547279244" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="-8063233539520921068" xil_pn:start_ts="1547279244">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1547279245" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="250970745955965653" xil_pn:start_ts="1547279245">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1547279245" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="-2570947432814384660" xil_pn:start_ts="1547279245">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1547887832" xil_pn:in_ck="3372536315243042243" xil_pn:name="TRANEXT_xstsynthesize_spartan6" xil_pn:prop_ck="-2770721542450886159" xil_pn:start_ts="1547887796">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="motorpackage.jhd"/>
+      <outfile xil_pn:name="motorpackage.lso"/>
+      <outfile xil_pn:name="motorpackage.ngc"/>
+      <outfile xil_pn:name="motorpackage.ngr"/>
+      <outfile xil_pn:name="motorpackage.prj"/>
+      <outfile xil_pn:name="motorpackage.stx"/>
+      <outfile xil_pn:name="motorpackage.syr"/>
+      <outfile xil_pn:name="motorpackage.xst"/>
+      <outfile xil_pn:name="motorpackage_xst.xrpt"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1547879170" xil_pn:in_ck="-4152584928273319370" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="-7425627056596222785" xil_pn:start_ts="1547879170">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1547887847" xil_pn:in_ck="-812245526301039911" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="4936360519513943171" xil_pn:start_ts="1547887832">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_ngo"/>
+      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+      <outfile xil_pn:name="motorpackage.bld"/>
+      <outfile xil_pn:name="motorpackage.ngd"/>
+      <outfile xil_pn:name="motorpackage_ngdbuild.xrpt"/>
+    </transform>
+    <transform xil_pn:end_ts="1547887890" xil_pn:in_ck="-1112123753981191046" xil_pn:name="TRANEXT_map_spartan6" xil_pn:prop_ck="6093601622908603872" xil_pn:start_ts="1547887847">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
+      <outfile xil_pn:name="motorpackage.pcf"/>
+      <outfile xil_pn:name="motorpackage_map.map"/>
+      <outfile xil_pn:name="motorpackage_map.mrp"/>
+      <outfile xil_pn:name="motorpackage_map.ncd"/>
+      <outfile xil_pn:name="motorpackage_map.ngm"/>
+      <outfile xil_pn:name="motorpackage_map.xrpt"/>
+      <outfile xil_pn:name="motorpackage_summary.xml"/>
+      <outfile xil_pn:name="motorpackage_usage.xml"/>
+    </transform>
+    <transform xil_pn:end_ts="1547887942" xil_pn:in_ck="4988158852641828403" xil_pn:name="TRANEXT_par_spartan6" xil_pn:prop_ck="93661965788626211" xil_pn:start_ts="1547887890">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
+      <outfile xil_pn:name="motorpackage.ncd"/>
+      <outfile xil_pn:name="motorpackage.pad"/>
+      <outfile xil_pn:name="motorpackage.par"/>
+      <outfile xil_pn:name="motorpackage.ptwx"/>
+      <outfile xil_pn:name="motorpackage.unroutes"/>
+      <outfile xil_pn:name="motorpackage.xpi"/>
+      <outfile xil_pn:name="motorpackage_pad.csv"/>
+      <outfile xil_pn:name="motorpackage_pad.txt"/>
+      <outfile xil_pn:name="motorpackage_par.xrpt"/>
+    </transform>
+    <transform xil_pn:end_ts="1547887962" xil_pn:in_ck="4988402740445029184" xil_pn:name="TRANEXT_bitFile_spartan6" xil_pn:prop_ck="6587536580693756888" xil_pn:start_ts="1547887942">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_xmsgs/bitgen.xmsgs"/>
+      <outfile xil_pn:name="motorpackage.bgn"/>
+      <outfile xil_pn:name="motorpackage.bin"/>
+      <outfile xil_pn:name="motorpackage.bit"/>
+      <outfile xil_pn:name="motorpackage.drc"/>
+      <outfile xil_pn:name="motorpackage.ut"/>
+      <outfile xil_pn:name="webtalk.log"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+    </transform>
+    <transform xil_pn:end_ts="1547887942" xil_pn:in_ck="1578314152379655542" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416185" xil_pn:start_ts="1547887927">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
+      <outfile xil_pn:name="motorpackage.twr"/>
+      <outfile xil_pn:name="motorpackage.twx"/>
+    </transform>
+    <transform xil_pn:end_ts="1547535349" xil_pn:in_ck="4988402740445029315" xil_pn:name="TRAN_postSynthesisSimModel" xil_pn:prop_ck="-3103937176490510863" xil_pn:start_ts="1547535344">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputAdded"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="InputRemoved"/>
+      <status xil_pn:value="OutputRemoved"/>
+    </transform>
+  </transforms>
+
+</generated_project>

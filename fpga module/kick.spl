@@ -1,0 +1,9 @@
+[Inputs]
+clk
+=inkick[7:0]=
+[Outputs]
+outkick
+[BiDir]
+[ATTRIBUTES]
+VeriModel kick
+

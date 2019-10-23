@@ -1,0 +1,92 @@
+Release 14.7 - xst P.20160913 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to /home/ise/ism_projects/xi share/not my codes/fourmotorwinter/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.05 secs
+ 
+--> 
+Parameter xsthdpdir set to /home/ise/ism_projects/xi share/not my codes/fourmotorwinter/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.05 secs
+ 
+--> 
+Reading design: kicker2.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/zerobit.v" into library work
+Parsing module <zerobit>.
+Analyzing Verilog file "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/pwm.v" into library work
+Parsing module <pwm>.
+Analyzing Verilog file "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/pid.v" into library work
+Parsing module <pid>.
+WARNING:HDLCompiler:327 - "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/pid.v" Line 42: Concatenation with unsized literal; will interpret as 32 bits
+WARNING:HDLCompiler:327 - "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/pid.v" Line 47: Concatenation with unsized literal; will interpret as 32 bits
+WARNING:HDLCompiler:327 - "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/pid.v" Line 53: Concatenation with unsized literal; will interpret as 32 bits
+WARNING:HDLCompiler:327 - "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/pid.v" Line 58: Concatenation with unsized literal; will interpret as 32 bits
+Analyzing Verilog file "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/gatedriver.v" into library work
+Parsing module <gatedriver>.
+Analyzing Verilog file "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/directionbit.v" into library work
+Parsing module <directionbit>.
+Analyzing Verilog file "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/decoder.v" into library work
+Parsing module <decoder>.
+Analyzing Verilog file "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/clock_divider.v" into library work
+Parsing module <clock_divider>.
+Analyzing Verilog file "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/clock.v" into library work
+Parsing module <clock>.
+Analyzing Verilog file "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/uart_tx.v" into library work
+Parsing module <transmiter>.
+Analyzing Verilog file "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/txbuffer.v" into library work
+Parsing module <txbuffer>.
+Analyzing Verilog file "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/speed4motor.v" into library work
+Parsing module <speed4motor>.
+Analyzing Verilog file "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motormodule.vf" into library work
+Parsing module <motormodule>.
+Analyzing Verilog file "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motorpackage.vf" into library work
+Parsing module <motormodule_MUSER_motorpackage>.
+Parsing module <motorpackage>.
+Parsing VHDL file "/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/UART_Receiver.vhd" into library work
+Parsing entity <UART_Receiver>.
+Parsing architecture <rtl> of entity <uart_receiver>.
+
+
+Total REAL time to Xst completion: 10.00 secs
+Total CPU time to Xst completion: 8.68 secs
+ 
+--> 
+
+
+Total memory usage is 396896 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    4 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

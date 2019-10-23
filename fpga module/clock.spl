@@ -1,0 +1,8 @@
+[Inputs]
+inc
+[Outputs]
+outc
+[BiDir]
+[ATTRIBUTES]
+VeriModel clock
+

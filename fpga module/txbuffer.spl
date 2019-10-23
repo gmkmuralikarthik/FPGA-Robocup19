@@ -1,0 +1,14 @@
+[Inputs]
+received
+clk
+rst_n
+=motor1[7:0]=
+=motor2[7:0]=
+=motor3[7:0]=
+=motor4[7:0]=
+[Outputs]
+=Serial[7:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel txbuffer
+

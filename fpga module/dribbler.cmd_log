@@ -1,0 +1,5 @@
+vhdtdtfi -lib work {/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/dribbler.v} -lang verilog -prj fourmotorwinter -o dribbler.spl -module dribbler -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 -w dribbler.spl {/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/dribbler.sym} 
+vhdtdtfi -lib work {/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/dribbler.v} -lang verilog -prj fourmotorwinter -o dribbler.spl -module dribbler -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+vhdtdtfi -lib work {/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/dribbler.v} -lang verilog -prj fourmotorwinter -o dribbler.spl -module dribbler -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 -w dribbler.spl {/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/dribbler.sym} 

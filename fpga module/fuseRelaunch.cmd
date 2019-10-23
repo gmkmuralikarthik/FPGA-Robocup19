@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "/home/ise/ism_projects/xi share/not my codes/fpga module/kt_isim_beh.exe" -prj "/home/ise/ism_projects/xi share/not my codes/fpga module/kt_beh.prj" "work.kt" "work.glbl" 

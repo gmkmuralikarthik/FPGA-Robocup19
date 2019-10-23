@@ -1,0 +1,6 @@
+vhdtdtfi -lib work {/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/gatedriver.v} -lang verilog -prj fourmotorwinter -o gatedriver.spl -module gatedriver -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 gatedriver.spl {/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/gatedriver.sym} 
+vhdtdtfi -lib work {/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/gatedriver.v} -lang verilog -prj fourmotorwinter -o gatedriver.spl -module gatedriver -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 -w gatedriver.spl {/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/gatedriver.sym} 
+vhdtdtfi -lib work {/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/gatedriver.v} -lang verilog -prj fourmotorwinter -o gatedriver.spl -module gatedriver -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 -w gatedriver.spl {/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/gatedriver.sym} 

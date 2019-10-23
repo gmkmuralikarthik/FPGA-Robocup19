@@ -1,0 +1,15 @@
+[Inputs]
+received
+clk
+rst_n
+=serial[7:0]=
+[Outputs]
+=Motor1[7:0]=
+=Motor2[7:0]=
+=Motor3[7:0]=
+=Motor4[7:0]=
+=kicker[7:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel speed4motor
+

@@ -1,0 +1,16 @@
+vhdtdtfi -lib work {/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/kicker.v} -lang verilog -prj fourmotorwinter -o kicker.spl -module kicker -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 kicker.spl {/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/kicker.sym} 
+vhdtdtfi -lib work {/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/kicker.v} -lang verilog -prj fourmotorwinter -o kicker.spl -module kicker -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 -w kicker.spl {/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/kicker.sym} 
+vhdtdtfi -lib work {/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/kicker.v} -lang verilog -prj fourmotorwinter -o kicker.spl -module kicker -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 -w kicker.spl {/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/kicker.sym} 
+vhdtdtfi -lib work {/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/kicker.v} -lang verilog -prj fourmotorwinter -o kicker.spl -module kicker -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 -w kicker.spl {/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/kicker.sym} 
+vhdtdtfi -lib work {/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/kicker.v} -lang verilog -prj fourmotorwinter -o kicker.spl -module kicker -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 -w kicker.spl {/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/kicker.sym} 
+vhdtdtfi -lib work {/home/ise/ism_projects/xi share/not my codes/fpga module/kicker.v} -lang verilog -prj fourmotorwinter -o kicker.spl -module kicker -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 -w kicker.spl {/home/ise/ism_projects/xi share/not my codes/fpga module/kicker.sym} 
+vhdtdtfi -lib work {/home/ise/ism_projects/xi share/not my codes/fpga module/kicker.v} -lang verilog -prj fourmotorwinter -o kicker.spl -module kicker -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 -w kicker.spl {/home/ise/ism_projects/xi share/not my codes/fpga module/kicker.sym} 
+vhdtdtfi -lib work {/home/ise/ism_projects/xi share/not my codes/fpga module/kicker.v} -lang verilog -prj fourmotorwinter -o kicker.spl -module kicker -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 -w kicker.spl {/home/ise/ism_projects/xi share/not my codes/fpga module/kicker.sym} 

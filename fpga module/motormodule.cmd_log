@@ -1,0 +1,4 @@
+sch2sym -intstyle ise -family spartan6 -refsym motormodule {/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motormodule.sch} {/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motormodule.sym} 
+sch2sym -intstyle ise -family spartan6 -w -refsym motormodule {/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motormodule.sch} {/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motormodule.sym} 
+sch2sym -intstyle ise -family spartan6 -w -refsym motormodule {/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motormodule.sch} {/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motormodule.sym} 
+sch2hdl -intstyle ise -family spartan6 -verilog motormodule_drc.vf -w {/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motormodule.sch} 

@@ -1,0 +1,13 @@
+[Inputs]
+CLK
+RST
+=E1[7:0]=
+=E2[7:0]=
+=E3[7:0]=
+=E4[7:0]=
+[Outputs]
+TX
+[BiDir]
+[ATTRIBUTES]
+VeriModel Encoder_4_Motor_Transmitter
+

@@ -1,0 +1,11 @@
+[Inputs]
+CLK
+RST
+=DATA[7:0]=
+[Outputs]
+TX
+flag
+[BiDir]
+[ATTRIBUTES]
+VeriModel transmiter
+

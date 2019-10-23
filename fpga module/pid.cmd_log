@@ -1,0 +1,2 @@
+vhdtdtfi -lib work {/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/pid.v} -lang verilog -prj fourmotorwinter -o pid.spl -module pid -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 pid.spl {/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/pid.sym} 

@@ -1,0 +1,9 @@
+[Inputs]
+clk
+=inkick[7:0]=
+[Outputs]
+outdribbler
+[BiDir]
+[ATTRIBUTES]
+VeriModel kickdribblerbit
+

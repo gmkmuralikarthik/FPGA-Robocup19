@@ -1,0 +1,10 @@
+[Inputs]
+CLK
+RST
+=DATA[7:0]=
+[Outputs]
+TX
+[BiDir]
+[ATTRIBUTES]
+VeriModel uart_tx
+

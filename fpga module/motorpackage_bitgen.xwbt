@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/home/ise/ism_projects/xi share/not my codes/fpga module/motorpackage.ncd
+OUTFILE=/home/ise/ism_projects/xi share/not my codes/fpga module/motorpackage.bit
+FAMILY=Spartan6
+PART=xc6slx9-3tqg144
+WORKINGDIR=/home/ise/ism_projects/xi share/not my codes/fpga module
+LICENSE=ISE
+USER_INFO=8416_11442_1478797146_620

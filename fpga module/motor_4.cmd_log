@@ -1,0 +1,9 @@
+sch2sym -intstyle ise -family spartan6 -refsym motor_4 {/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motor_4.sch} {/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motor_4.sym} 
+sch2hdl -intstyle ise -family spartan6 -verilog motor_4_drc.vf -w {/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motor_4.sch} 
+sch2sym -intstyle ise -family spartan6 -refsym motor_4 {/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motor_4.sch} {/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motor_4.sym} 
+sch2hdl -intstyle ise -family spartan6 -verilog motor_4_drc.vf -w {/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motor_4.sch} 
+sch2sym -intstyle ise -family spartan6 -refsym motor_4 {/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motor_4.sch} {/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motor_4.sym} 
+sch2hdl -intstyle ise -family spartan6 -verilog motor_4_drc.vf -w {/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motor_4.sch} 
+sch2sym -intstyle ise -family spartan6 -refsym motor_4 {/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motor_4.sch} {/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motor_4.sym} 
+sch2hdl -intstyle ise -family spartan6 -verilog motor_4_drc.vf -w {/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motor_4.sch} 
+sch2sym -intstyle ise -family spartan6 -refsym motor_4 {/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motor_4.sch} {/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/motor_4.sym} 

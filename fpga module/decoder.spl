@@ -1,0 +1,11 @@
+[Inputs]
+clk
+quadA
+quadB
+reset
+[Outputs]
+=total[7:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel decoder
+

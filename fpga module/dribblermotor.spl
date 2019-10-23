@@ -1,0 +1,10 @@
+[Inputs]
+=h[2:0]=
+[Outputs]
+=a[1:0]=
+=b[1:0]=
+=c[1:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel dribblermotor
+

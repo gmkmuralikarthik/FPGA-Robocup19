@@ -1,0 +1,11 @@
+[Inputs]
+clk
+rst_n
+=enc[7:0]=
+=set_val[7:0]=
+[Outputs]
+=Pwm[7:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel pid
+

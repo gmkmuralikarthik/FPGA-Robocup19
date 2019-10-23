@@ -1,0 +1,6 @@
+vhdtdtfi -lib work {/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/speed4motor.v} -lang verilog -prj fourmotorwinter -o speed4.spl -module speed4 -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 -w speed4.spl {/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/speed4.sym} 
+vhdtdtfi -lib work {/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/speed4motor.v} -lang verilog -prj fourmotorwinter -o speed4.spl -module speed4 -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 -w speed4.spl {/home/ise/ism_projects/xi share/not my codes/fourmotorwinter/speed4.sym} 
+vhdtdtfi -lib work {/home/ise/ism_projects/xi share/not my codes/fpga module/speed4motor.v} -lang verilog -prj fourmotorwinter -o speed4.spl -module speed4 -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 -w speed4.spl {/home/ise/ism_projects/xi share/not my codes/fpga module/speed4.sym} 
