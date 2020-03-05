@@ -3,11 +3,11 @@
 <!--The data in this file is primarily intended for consumption by Xilinx tools.
 The structure and the elements are likely to change over the next few releases.
 This means code written to parse this file will need to be revisited each subsequent release.-->
-<application name="pn" timeStamp="Sat Jan 19 08:51:30 2019">
+<application name="pn" timeStamp="Fri Feb 28 13:51:21 2020">
 <section name="Project Information" visible="false">
 <property name="ProjectID" value="F943588FFEA98DA999E0CCEF41613F9C" type="project"/>
 <property name="ProjectIteration" value="71" type="project"/>
-<property name="ProjectFile" value="/home/ise/ism_projects/xi share/not my codes/fpga module/fourmotorwinter.xise" type="project"/>
+<property name="ProjectFile" value="/home/ise/ism_projects/xi share/KRSSG FPGA CODES/FPGA codes 2019/fpga module/fourmotorwinter.xise" type="project"/>
 <property name="ProjectCreationTimestamp" value="2018-12-07T03:56:18" type="project"/>
 </section>
 <section name="Project Statistics" visible="true">
@@ -42,8 +42,8 @@ This means code written to parse this file will need to be revisited each subseq
 <property name="PROP_PreferredLanguage" value="Verilog" type="design"/>
 <property name="FILE_SCHEMATIC" value="2" type="source"/>
 <property name="FILE_UCF" value="1" type="source"/>
-<property name="FILE_VERILOG" value="17" type="source"/>
-<property name="FILE_VHDL" value="1" type="source"/>
+<property name="FILE_VERILOG" value="18" type="source"/>
+<property name="FILE_VHDL" value="2" type="source"/>
 </section>
 </application>
 </document>

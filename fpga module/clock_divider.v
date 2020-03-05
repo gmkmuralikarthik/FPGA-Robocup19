@@ -1,36 +1,31 @@
 `timescale 1ns / 1ps
-//////////////////////////////////////////////////////////////////////////////////
-// The input is half of dividing factor
-//
-//////////////////////////////////////////////////////////////////////////////////
-	module clock_divider( input CLK, input [15:0] IN, input RST, output OUT_CLK);
-		reg [15:0] Counter=0;
-		reg OUT=0;
-	
-		always @(posedge CLK or posedge RST)
-			begin
-				if (RST)
-					begin
-						OUT<= 0;
-						Counter<=0;
-					end
-				else
-					begin
-						Counter<= Counter+1;
-						if ( Counter == IN) 
-						begin
-							Counter<=0;
-							
-							OUT<=~ OUT;
-						end
-												
-						
-					end
-					
-			end
-		assign OUT_CLK = OUT;
-		
-		
-	endmodule
-	
-	
+module Clock_Divider(en , clk , clk_out);
+	input en ;
+   input clk ;
+   output wire clk_out ;
+   
+	reg [7:0] count ;
+	reg clk_out_r ;
+   assign clk_out = clk_out_r;
+	initial begin
+		count = 0 ;
+		clk_out_r = 0;
+	end
+// BLDC 5000RPM , 8 pole-pair => 1 commutation(i.e. one value of (H1,H2,H3)) remains for 500 microseconds
+// T = 10 ns (for 100 MHz)
+// So, for prescalar = 20(T' = 200 ns) there are nearly 10 PWM cycles per commutation
+  	always @(posedge clk)
+	begin
+	if(en)
+	begin
+		count <= count + 7'b1 ;
+		if (count > 40)				// prescalar = 20 (max = 20/2 - 2) currently prescalar = 40
+		begin
+		clk_out_r <= ~clk_out_r ;
+		count <= 0 ;
+		end
+	end
+	else								// default prescalar = 2
+		clk_out_r <= ~clk_out_r ;
+	end
+endmodule

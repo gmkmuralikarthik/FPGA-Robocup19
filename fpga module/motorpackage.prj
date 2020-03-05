@@ -1,6 +1,6 @@
-verilog work "../anirudth/FPGA-master/Clock_Divider/Clock_Divider.v"
-verilog work "../../UART_Transmiter (2).v"
+verilog work "Clock_Divider.v"
 verilog work "zerobit.v"
+verilog work "UART_Transmiter (2).v"
 verilog work "pwm.v"
 verilog work "pid.v"
 verilog work "gatedriver.v"

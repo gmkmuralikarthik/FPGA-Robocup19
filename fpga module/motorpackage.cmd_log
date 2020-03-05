@@ -496,3 +496,10 @@ map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -reg
 par -w -intstyle ise -ol high -mt off motorpackage_map.ncd motorpackage.ncd motorpackage.pcf 
 trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml motorpackage.twx motorpackage.ncd -o motorpackage.twr motorpackage.pcf -ucf testfinal.ucf 
 bitgen -intstyle ise -f motorpackage.ut motorpackage.ncd 
+sch2hdl -intstyle ise -family spartan6 -verilog motorpackage_drc.vf -w {/home/ise/ism_projects/xi share/KRSSG FPGA CODES/FPGA codes 2019/fpga module/motorpackage.sch} 
+sch2hdl -intstyle ise -family spartan6 -verilog motorpackage_drc.vf -w {/home/ise/ism_projects/xi share/KRSSG FPGA CODES/FPGA codes 2019/fpga module/motorpackage.sch} 
+xst -intstyle ise -ifn "/home/ise/ism_projects/xi share/KRSSG FPGA CODES/FPGA codes 2019/fpga module/motorpackage.xst" -ofn "/home/ise/ism_projects/xi share/KRSSG FPGA CODES/FPGA codes 2019/fpga module/motorpackage.syr" 
+xst -intstyle ise -ifn "/home/ise/ism_projects/xi share/KRSSG FPGA CODES/FPGA codes 2019/fpga module/motorpackage.xst" -ofn "/home/ise/ism_projects/xi share/KRSSG FPGA CODES/FPGA codes 2019/fpga module/motorpackage.syr" 
+xst -intstyle ise -ifn "/home/ise/ism_projects/xi share/KRSSG FPGA CODES/FPGA codes 2019/fpga module/motorpackage.xst" -ofn "/home/ise/ism_projects/xi share/KRSSG FPGA CODES/FPGA codes 2019/fpga module/motorpackage.syr" 
+sch2hdl -intstyle ise -family spartan6 -verilog motorpackage_drc.vf -w {/home/ise/ism_projects/xi share/KRSSG FPGA CODES/FPGA codes 2019/fpga module/motorpackage.sch} 
+xst -intstyle ise -ifn "/home/ise/ism_projects/xi share/KRSSG FPGA CODES/FPGA codes 2019/fpga module/motorpackage.xst" -ofn "/home/ise/ism_projects/xi share/KRSSG FPGA CODES/FPGA codes 2019/fpga module/motorpackage.syr" 

@@ -7,11 +7,11 @@
 // \   \   \/     Version : 14.7
 //  \   \         Application : sch2hdl
 //  /   /         Filename : motorpackage_drc.vf
-// /___/   /\     Timestamp : 01/18/2019 13:46:45
+// /___/   /\     Timestamp : 02/28/2020 13:51:14
 // \   \  /  \ 
 //  \___\/\___\ 
 //
-//Command: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/sch2hdl -intstyle ise -family spartan6 -verilog motorpackage_drc.vf -w "/home/ise/ism_projects/xi share/not my codes/fpga module/motorpackage.sch"
+//Command: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/sch2hdl -intstyle ise -family spartan6 -verilog motorpackage_drc.vf -w "/home/ise/ism_projects/xi share/KRSSG FPGA CODES/FPGA codes 2019/fpga module/motorpackage.sch"
 //Design Name: motorpackage
 //Device: spartan6
 //Purpose:
@@ -120,7 +120,11 @@ module motorpackage(done,
                     c4, 
                     c5, 
                     led, 
-                    trigger);
+                    led2, 
+                    led3, 
+                    led4, 
+                    trigger, 
+                    tx);
 
     input done;
     input en;
@@ -156,7 +160,11 @@ module motorpackage(done,
    output [1:0] c4;
    output [1:0] c5;
    output led;
+   output led2;
+   output led3;
+   output led4;
    output trigger;
+   output tx;
    
    wire XLXN_1;
    wire [7:0] XLXN_2;
@@ -169,9 +177,16 @@ module motorpackage(done,
    wire XLXN_129;
    wire XLXN_130;
    wire XLXN_131;
+   wire [7:0] XLXN_245;
+   wire [7:0] XLXN_246;
+   wire [7:0] XLXN_247;
+   wire [7:0] XLXN_248;
+   wire XLXN_251;
+   wire led2_DUMMY;
    wire led_DUMMY;
    
    assign led = led_DUMMY;
+   assign led2 = led2_DUMMY;
    UART_Receiver  XLXI_5 (.i_Clk(inc), 
                          .i_RX_Serial(rxin), 
                          .o_RX_Byte(XLXN_2[7:0]), 
@@ -183,7 +198,7 @@ module motorpackage(done,
                                            .qa(q4a), 
                                            .qb(q4b), 
                                            .setvalue(XLXN_89[7:0]), 
-                                           .encoder(), 
+                                           .encoder(XLXN_248[7:0]), 
                                            .phase_a(a4[1:0]), 
                                            .phase_b(b4[1:0]), 
                                            .phase_c(c4[1:0]));
@@ -194,7 +209,7 @@ module motorpackage(done,
                                            .qa(q3a), 
                                            .qb(q3b), 
                                            .setvalue(XLXN_88[7:0]), 
-                                           .encoder(), 
+                                           .encoder(XLXN_247[7:0]), 
                                            .phase_a(a3[1:0]), 
                                            .phase_b(b3[1:0]), 
                                            .phase_c(c3[1:0]));
@@ -205,7 +220,7 @@ module motorpackage(done,
                                            .qa(q2a), 
                                            .qb(q2b), 
                                            .setvalue(XLXN_86[7:0]), 
-                                           .encoder(), 
+                                           .encoder(XLXN_245[7:0]), 
                                            .phase_a(a2[1:0]), 
                                            .phase_b(b2[1:0]), 
                                            .phase_c(c2[1:0]));
@@ -216,14 +231,17 @@ module motorpackage(done,
                                            .qa(q1a), 
                                            .qb(q1b), 
                                            .setvalue(XLXN_87[7:0]), 
-                                           .encoder(), 
+                                           .encoder(XLXN_246[7:0]), 
                                            .phase_a(a1[1:0]), 
                                            .phase_b(b1[1:0]), 
                                            .phase_c(c1[1:0]));
    kicker  XLXI_20 (.clk(inc), 
                    .done(done), 
+                   .kickstart(led2_DUMMY), 
                    .kicktime(XLXN_127[7:0]), 
                    .Charge(charge), 
+                   .led3(led3), 
+                   .led4(led4), 
                    .Trigger(trigger));
    speed4  XLXI_22 (.clk(inc), 
                    .received(XLXN_1), 
@@ -233,7 +251,7 @@ module motorpackage(done,
                    .brake2(XLXN_129), 
                    .brake3(XLXN_130), 
                    .brake4(XLXN_131), 
-                   .kickb(), 
+                   .kickb(led2_DUMMY), 
                    .kicker(XLXN_127[7:0]), 
                    .Motor1(XLXN_86[7:0]), 
                    .Motor2(XLXN_87[7:0]), 
@@ -248,4 +266,12 @@ module motorpackage(done,
                       .a(a5[1:0]), 
                       .b(b5[1:0]), 
                       .c(c5[1:0]));
+   Encoder_4_Motor_Transmitter  XLXI_37 (.CLK(inc), 
+                                        .E1(XLXN_245[7:0]), 
+                                        .E2(XLXN_246[7:0]), 
+                                        .E3(XLXN_247[7:0]), 
+                                        .E4(XLXN_248[7:0]), 
+                                        .RST(XLXN_251), 
+                                        .TX(tx));
+   GND  XLXI_38 (.G(XLXN_251));
 endmodule
